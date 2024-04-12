@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Montserrat;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .goals {
+            margin-top: 20px;
+        }
+
+        .goal-box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid 89A1FF;
+            width: 343px;
+            height: 50px;
+            top: 465px;
+            left: 16px;
+            gap: 0px;
+            border-radius: 12px;
+            opacity: 0px;
+
+        }
+
+        input[type="checkbox"] {
+            width: 22px;
+            height: 22px;
+            top: 281px;
+            left: 321px;
+            gap: 0px;
+            opacity: 0px;
+            border: 1px solid #89A1FF;
+        }
+
+        .goal-text {
+            flex: 1;
+            margin-left: 10px;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 14.63px;
+            text-align: left;
+
+        }
+
+
+        .links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #89A1FF;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        button {
+            background-color: #89A1FF;
+            color: white;
+            padding: 10px 20px;
+            margin: 50px 0px;
+            cursor: pointer;
+            display: block;
+            border: 1px solid #787878;
+            width: 343px;
+            height: 50px;
+            top: 574px;
+            left: 16px;
+            gap: 0px;
+            border-radius: 12px;
+            opacity: 0px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19.5px;
+            text-align: center;
+
+
+        }
+    </style>
+    <title>Goals</title>
+</head>
+
+<body>
+    <div>
+        <h1>What are your goals?</h1>
+        <form action="../index.html">
+            <div class="goals">
+                <div class="goal-box">
+                    <div class="goal-text">
+                        <label for="weight-loss">Weight Loss</label>
+                    </div>
+                    <input type="checkbox" id="weight-loss" name="goals">
+
+                </div>
+
+                <div class="goal-box">
+                    <div class="goal-text">
+                        <label for="muscle-gain">Muscle Gain</label>
+                    </div>
+                    <input type="checkbox" id="muscle-gain" name="goals">
+
+                </div>
+
+                <div class="goal-box">
+                    <div class="goal-text">
+                        <label for="flexibility">Flexibility and Mobility</label>
+                    </div>
+                    <input type="checkbox" id="flexibility" name="goals">
+
+                </div>
+
+                <div class="goal-box">
+                    <div class="goal-text">
+                        <label for="general-fitness">General Fitness</label>
+
+                    </div>
+                    <input type="checkbox" id="general-fitness" name="goals">
+
+                </div>
+
+                <div class="goal-box">
+                    <div class="goal-text">
+                        <label for="event-training">Event - specific training</label>
+
+                    </div>
+                    <input type="checkbox" id="event-training" name="goals">
+
+                </div>
+                <div class="goal-box">
+                    <div class="goal-text">
+                        <label for="event-training">Mindfulness and Mental Health</label>
+
+                    </div>
+                    <input type="checkbox" id="mind-training" name="goals">
+
+                </div>
+            </div>
+            <div>
+                <button type="submit">Confirm</button>
+            </div>
+        </form>
+    </div>

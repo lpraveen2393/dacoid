@@ -1,0 +1,48 @@
+img {
+    width: 352px;
+    height: 234.61px;
+    top: 156px;
+    left: 11px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+body {
+    font-family: Montserrat;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: left;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+
+    color: #787878;
+}
+
+.btn-color {
+    border-radius: 50%;
+    color: white;
+    background-color: #89A1FF;
+    border: 1px;
+    justify-content: center;
+    align-items: center;
+    float: right;
+
+}

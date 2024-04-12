@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Montserrat;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: left;
+            margin-bottom: 30px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 23.44px;
+            text-align: left;
+
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+            width: 343px;
+            height: 50px;
+            top: 135px;
+            left: 16px;
+            gap: 0px;
+            border-radius: 12px;
+            opacity: 0px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #89A1FF;
+            color: white;
+            padding: 10px 20px;
+            margin: 50px 0px;
+            cursor: pointer;
+            display: block;
+            border: 1px solid #787878;
+            width: 343px;
+            height: 50px;
+            top: 574px;
+            left: 16px;
+            gap: 0px;
+            border-radius: 12px;
+            opacity: 0px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19.5px;
+            text-align: left;
+
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #89A1FF;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .g-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .g-button img {
+            width: 24px;
+            height: 24px;
+            top: 699px;
+            left: 147px;
+            gap: 0px;
+            opacity: 0px;
+
+            border: 1px solid #787878;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        ::placeholder {
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 14.63px;
+            text-align: left;
+        }
+
+        p {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <title>Registration</title>
+</head>
+
+<body>
+    <div>
+        <h1>Create an Account</h1>
+        <form action="goals.html">
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required>
+
+            <label for="lname"></label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <label for="password"></label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+
+            <div>
+                <input type="checkbox" id="agree" name="agree" required>
+                I agree to all <a href="#">T&C</a> and <a href="#">Privacy Policy</a>
+            </div>
+
+            <button type="submit">Create Account</button>
+        </form>
+
+        <div class="or">
+            <p>
+                Or
+
+            </p>
+
+        </div>
+        <div class="g-button">
+            <img src="../public/image/googlelogo.png" alt="Google Sign In">
+            <img src="../public/image/fblogo.png" alt="facebook Sign In">
+        </div>
+        <div class="links">
+            Already have an account?<a href="./login.html">Login</a>
+        </div>
+    </div>
+</body>
+
+</html>
