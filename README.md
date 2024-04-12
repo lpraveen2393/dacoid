@@ -1,4 +1,4 @@
-# Daily Workout Scheduler
+# Daily Workout Planner
 
 This project was created as an  assignment for Dacoid Digital.
 
